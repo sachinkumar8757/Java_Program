@@ -12,7 +12,8 @@ public class Stack {
         {
             System.out.println("overflow");
         }
-        else{
+        else
+        {
             top++;
             a[top]=item;
         }
@@ -24,7 +25,8 @@ public class Stack {
        {
         System.out.println("underflow");
        }
-       else{
+       else
+       {
         top--;
         System.out.println("popped element is "+item);
        }
@@ -45,6 +47,7 @@ public class Stack {
             }
         }
     }
+    
     public static void main(String arg[]){
         int ch;
         Scanner sc = new Scanner(System.in);
